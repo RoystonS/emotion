@@ -1,5 +1,18 @@
 # @emotion/styled
 
+## 11.0.0-next.16
+
+### Minor Changes
+
+- [`18c0d5f4`](https://github.com/emotion-js/emotion/commit/18c0d5f4fbe59545c335eab2e0a28d414db33a36) [#1668](https://github.com/emotion-js/emotion/pull/1668) Thanks [@animecyc](https://github.com/animecyc)! - Custom `shouldForwardProp` is being preserved now when using `.withComponent`. Also, when passing an additional `shouldForwardProp` in `.withComponent`'s options (like this: `SomeComponent.withComponent('span', { shouldForwardProp })`) it's being composed with the potentially existing `shouldForwardProp`.
+
+### Patch Changes
+
+- [`0895f1f3`](https://github.com/emotion-js/emotion/commit/0895f1f3c0f428a2dedc501028068fedf6e6c45e) [#1995](https://github.com/emotion-js/emotion/pull/1995) Thanks [@Andarist](https://github.com/Andarist)! - Fixed an issue with typing for the `as` prop not being provided to components created using component factories available on the `styled` factory (e.g. `styled.div`).
+
+- Updated dependencies [[`58b2bbca`](https://github.com/emotion-js/emotion/commit/58b2bbcad63f8ea22389ccdc2a8f6c5064984e82)]:
+  - @emotion/react@11.0.0-next.16
+
 ## 11.0.0-next.15
 
 ### Minor Changes
